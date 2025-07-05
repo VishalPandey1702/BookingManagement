@@ -29,6 +29,7 @@ export default async function authenticateOrCreateUser(
           user_email: email,
           user_full_name: fullName,
           user_image_url: imageUrl || null,
+          user_role_id:3
         },
       });
     }
