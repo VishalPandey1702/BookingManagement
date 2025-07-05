@@ -1,7 +1,7 @@
 // app/(fullpages)/login/page.tsx
 "use client";
 
-import signInWithGoogle from "@/app/(fullpages)/login/actions"
+import signInWithGoogle from "@/app/(fullpages)/auth/actions"
 
 export default function SignIn() {
   return (

@@ -11,8 +11,8 @@ const Home: React.FC = () => {
           <h1 className="text-2xl font-bold">Play Academy</h1>
           <div className="space-x-4">
             <Link href="/about" className="hover:text-gray-200">About</Link>
-            <Link href="/login" className="hover:text-gray-200">Login</Link>
-            <Link href="/signup" className="hover:text-gray-200">Sign Up</Link>
+            <Link href="/auth" className="hover:text-gray-200">Login</Link>
+            <Link href="/auth" className="hover:text-gray-200">Sign Up</Link>
           </div>
         </div>
       </nav>
